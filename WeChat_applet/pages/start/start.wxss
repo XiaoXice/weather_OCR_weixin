@@ -1,0 +1,38 @@
+/* start.wxss */
+
+.btn1{
+  width: 60%;
+  top: 10%
+}
+
+.radio-group{
+  left: 30%;
+  top: 30%;
+  position: absolute
+}
+
+#input{
+  background-color: #e5e5e5;
+  width: 60%;
+  height: 88rpx;
+  top: 45%;
+  left: 18%;
+  position: absolute
+  }
+
+  #text{
+  color: #888888;
+  font-family:PingFangSC-Regular;
+  font-size:12px;
+  top: 55%;
+  left: 17%;
+  position: absolute
+  }
+
+  #btn3{
+  height: 88rpx;
+  top: 60%;
+  width: 60%;
+  color: white;
+  background-color: #00aea1;
+  }

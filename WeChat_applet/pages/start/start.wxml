@@ -1,0 +1,19 @@
+<!--start.wxml-->
+
+<button class="btn1" bindtap="validate">
+睁眼看天气(OneNet)</button>
+
+<radio-group class="radio-group" bindchange="radioChange">
+  <label style="display: flex"  wx:for="{{items}}">
+    <radio value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+  </label>
+</radio-group>
+
+<input id="input" placeholder="输入温度门限" 
+placeholder-style="font-size:15px; color:#bfbfbf;" 
+style="font-weight:bolder; font-size:15px; color:#000000; padding-left: 30rpx"
+  bindinput="change"/>
+
+<text id="text">提示：当目前温度异常时报警。单位：摄氏度</text>
+<button id="btn3" style="opacity: {{opacity}}" 
+disabled="{{disabled}}" bindtap="send">发送请求</button>
