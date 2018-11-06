@@ -52,7 +52,7 @@ Page({
             url: 'http://xxxxxxxxxxxxxxxxxxxxxx', //换成自己的本地服务器的地址
             filePath: that.data.tempFilePaths[0],
             name: 'image',
-            header: { "Content-Type": "multipart/form-data" },
+            // header: { "Content-Type": "multipart/form-data" },
             success: function(res) {
                 console.log(res)
                 var data = JSON.parse(res.data) //把返回结果解析成json格式
